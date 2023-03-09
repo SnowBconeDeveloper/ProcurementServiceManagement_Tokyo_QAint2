@@ -38,7 +38,7 @@
         <label>Row Skips</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Fetch services from SAP ECC">fe4bf3f14757551096fcb777746d430b</model>
+        <model display_value="">fe4bf3f14757551096fcb777746d430b</model>
         <model_id>fe4bf3f14757551096fcb777746d430b</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_fe4bf3f14757551096fcb777746d430b</name>

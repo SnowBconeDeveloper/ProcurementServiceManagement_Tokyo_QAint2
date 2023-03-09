@@ -38,7 +38,7 @@
         <label>Total Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Fetch Materials from SAP">a389bbeb474f115086887562846d43bb</model>
+        <model display_value="">a389bbeb474f115086887562846d43bb</model>
         <model_id>a389bbeb474f115086887562846d43bb</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_a389bbeb474f115086887562846d43bb</name>

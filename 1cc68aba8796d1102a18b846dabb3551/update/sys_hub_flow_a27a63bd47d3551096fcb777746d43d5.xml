@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch9a-12-12-2022_01-04-2023_0931.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -28,15 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a27a63bd47d3551096fcb777746d43d5</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Fetch services from SAP ECC</sys_name>
         <sys_overrides/>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
         <sys_update_name>sys_hub_flow_a27a63bd47d3551096fcb777746d43d5</sys_update_name>
-        <sys_updated_by>Krishna</sys_updated_by>
-        <sys_updated_on>2023-02-20 10:09:09</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-05 08:16:49</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a27a63bd47d3551096fcb777746d43d5"/>
@@ -390,6 +391,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>22</order>
@@ -428,6 +430,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>9</order>
@@ -554,6 +557,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>34</order>
@@ -628,6 +632,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>2</order>
@@ -673,10 +678,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2ffdd9b48763d110a3e3cbb4dabb35f3"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>21</order>
@@ -704,21 +709,8 @@
         <sys_updated_by>rahul.tadisetti@snc</sys_updated_by>
         <sys_updated_on>2022-12-02 05:01:25</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=38959a8187271510a3e3cbb4dabb350a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>38959a8187271510a3e3cbb4dabb350a</id>
-        <sys_created_by>rahul.tadisetti@snc</sys_created_by>
-        <sys_created_on>2022-12-02 05:01:25</sys_created_on>
-        <sys_id>7c959a8187271510a3e3cbb4dabb350b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2022-12-28 03:20:53</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}","IV_QUERY_TABLE":"{{flow_variable.table_name_2}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=38959a8187271510a3e3cbb4dabb350a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=38959a8187271510a3e3cbb4dabb350a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -727,6 +719,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>8</order>
@@ -785,10 +778,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=3e9e6bb14717551096fcb777746d43e7"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>4</order>
@@ -816,21 +809,8 @@
         <sys_updated_by>rahul.tadisetti@snc</sys_updated_by>
         <sys_updated_on>2022-12-01 15:41:10</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=526e5bf0876bd110a3e3cbb4dabb3534"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>526e5bf0876bd110a3e3cbb4dabb3534</id>
-        <sys_created_by>rahul.tadisetti@snc</sys_created_by>
-        <sys_created_on>2022-12-01 15:41:10</sys_created_on>
-        <sys_id>d66e5bf0876bd110a3e3cbb4dabb3535</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2022-12-29 02:35:45</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name_1}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=526e5bf0876bd110a3e3cbb4dabb3534"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=526e5bf0876bd110a3e3cbb4dabb3534"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -839,6 +819,7 @@
         <action_type display_value="Segregate service master description response">af492f3d47d3551096fcb777746d4387</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>25</order>
@@ -901,6 +882,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>1</order>
@@ -963,6 +945,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>31</order>
@@ -1025,6 +1008,7 @@
         <action_type display_value="Segregate service master response">bf682ff947d3551096fcb777746d4339</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>11</order>
@@ -1087,6 +1071,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>6</order>
@@ -1123,6 +1108,7 @@
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>15</order>
@@ -1185,6 +1171,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a27a63bd47d3551096fcb777746d43d5</flow>
         <order>23</order>
@@ -2150,7 +2137,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -3881,11 +3868,11 @@
         <sys_created_on>2022-12-19 02:04:07</sys_created_on>
         <sys_id>7d005d6e4773911002367562846d437c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service Record</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a27a63bd47d3551096fcb777746d43d5_service_record_en</sys_update_name>
         <sys_updated_by>krishna</sys_updated_by>
         <sys_updated_on>2022-12-19 02:04:07</sys_updated_on>
         <url/>
@@ -3904,11 +3891,11 @@
         <sys_created_on>2022-11-22 09:09:53</sys_created_on>
         <sys_id>d78e6bb14717551096fcb777746d432d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection name</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a27a63bd47d3551096fcb777746d43d5_connection_name_en</sys_update_name>
         <sys_updated_by>krishna</sys_updated_by>
         <sys_updated_on>2022-11-22 09:09:53</sys_updated_on>
         <url/>
@@ -3929,11 +3916,11 @@
         <sys_created_on>2022-11-22 09:09:54</sys_created_on>
         <sys_id>978e6bb14717551096fcb777746d4333</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_a27a63bd47d3551096fcb777746d43d5_error_en</sys_update_name>
         <sys_updated_by>krishna</sys_updated_by>
         <sys_updated_on>2022-11-22 09:09:54</sys_updated_on>
         <url/>
@@ -3952,11 +3939,11 @@
         <sys_created_on>2022-11-22 09:09:54</sys_created_on>
         <sys_id>e38e6bb14717551096fcb777746d433a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_a27a63bd47d3551096fcb777746d43d5_status_en</sys_update_name>
         <sys_updated_by>krishna</sys_updated_by>
         <sys_updated_on>2022-11-22 09:09:54</sys_updated_on>
         <url/>
@@ -4409,10 +4396,10 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=a750448a4757551096fcb777746d430a^sys_idNOT IN162f524d87271510a3e3cbb4dabb3528,25ded1388763d110a3e3cbb4dabb35e5,2e2f524d87271510a3e3cbb4dabb354f,52093fdd8740ad10a3e3cbb4dabb35d8,5570848a4757551096fcb777746d43f5,59ded1388763d110a3e3cbb4dabb35db,5a80088a4757551096fcb777746d4398,6e2f524d87271510a3e3cbb4dabb3544,8880088a4757551096fcb777746d4327,9870848a4757551096fcb777746d43ab,be2f524d87271510a3e3cbb4dabb3563,d180088a4757551096fcb777746d433a,d480088a4757551096fcb777746d4332,f22f524d87271510a3e3cbb4dabb356c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>4</order>
@@ -4440,21 +4427,8 @@
         <sys_updated_by>rahul.tadisetti@snc</sys_updated_by>
         <sys_updated_on>2022-12-02 05:43:18</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=162f524d87271510a3e3cbb4dabb3528"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>162f524d87271510a3e3cbb4dabb3528</id>
-        <sys_created_by>rahul.tadisetti@snc</sys_created_by>
-        <sys_created_on>2022-12-02 05:43:18</sys_created_on>
-        <sys_id>5a2f524d87271510a3e3cbb4dabb3529</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2022-12-29 02:37:43</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name_1}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=162f524d87271510a3e3cbb4dabb3528"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=162f524d87271510a3e3cbb4dabb3528"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -4463,6 +4437,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>6</order>
@@ -4499,6 +4474,7 @@
         <action_type display_value="Segregate service master response">bf682ff947d3551096fcb777746d4339</action_type>
         <action_type_parent display_value="Segregate service master response">980827f947d3551096fcb777746d43c3</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>11</order>
@@ -4560,6 +4536,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>22</order>
@@ -4598,6 +4575,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>8</order>
@@ -4660,6 +4638,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>2</order>
@@ -4709,6 +4688,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>34</order>
@@ -4783,6 +4763,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>9</order>
@@ -4909,6 +4890,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>23</order>
@@ -5035,6 +5017,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>1</order>
@@ -5097,6 +5080,7 @@
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>15</order>
@@ -5159,6 +5143,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>31</order>
@@ -5221,6 +5206,7 @@
         <action_type display_value="Segregate service master description response">af492f3d47d3551096fcb777746d4387</action_type>
         <action_type_parent display_value="Segregate service master description response">be09e73d47d3551096fcb777746d43cd</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>25</order>
@@ -5279,10 +5265,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d480088a4757551096fcb777746d4332"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch services from SAP ECC">a750448a4757551096fcb777746d430a</flow>
         <order>21</order>
@@ -5310,21 +5296,8 @@
         <sys_updated_by>rahul.tadisetti@snc</sys_updated_by>
         <sys_updated_on>2022-12-02 05:43:20</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=f22f524d87271510a3e3cbb4dabb356c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>f22f524d87271510a3e3cbb4dabb356c</id>
-        <sys_created_by>rahul.tadisetti@snc</sys_created_by>
-        <sys_created_on>2022-12-02 05:43:20</sys_created_on>
-        <sys_id>032f524d87271510a3e3cbb4dabb356d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2022-12-28 03:25:49</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}","IV_QUERY_TABLE":"{{flow_variable.table_name_2}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f22f524d87271510a3e3cbb4dabb356c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f22f524d87271510a3e3cbb4dabb356c"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a750448a4757551096fcb777746d430a"/>
@@ -6865,7 +6838,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -7851,11 +7824,11 @@
         <sys_created_on>2022-11-22 10:27:47</sys_created_on>
         <sys_id>9460448a4757551096fcb777746d4356</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection name</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a750448a4757551096fcb777746d430a_connection_name_en</sys_update_name>
         <sys_updated_by>krishna</sys_updated_by>
         <sys_updated_on>2022-11-22 10:27:47</sys_updated_on>
         <url/>
@@ -7874,11 +7847,11 @@
         <sys_created_on>2022-12-19 02:17:20</sys_created_on>
         <sys_id>d30391a247b3911002367562846d433b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service Record</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a750448a4757551096fcb777746d430a_service_record_en</sys_update_name>
         <sys_updated_by>krishna</sys_updated_by>
         <sys_updated_on>2022-12-19 02:17:20</sys_updated_on>
         <url/>
@@ -7899,11 +7872,11 @@
         <sys_created_on>2022-11-22 10:27:48</sys_created_on>
         <sys_id>a060448a4757551096fcb777746d436d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_a750448a4757551096fcb777746d430a_error_en</sys_update_name>
         <sys_updated_by>krishna</sys_updated_by>
         <sys_updated_on>2022-11-22 10:27:48</sys_updated_on>
         <url/>
@@ -7922,11 +7895,11 @@
         <sys_created_on>2022-11-22 10:27:49</sys_created_on>
         <sys_id>f060448a4757551096fcb777746d437c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_a750448a4757551096fcb777746d430a_status_en</sys_update_name>
         <sys_updated_by>krishna</sys_updated_by>
         <sys_updated_on>2022-11-22 10:27:49</sys_updated_on>
         <url/>
@@ -7975,9 +7948,8 @@
             <value>Error</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>a27a63bd47d3551096fcb777746d43d5</sys_id>
         <latest_snapshot>a750448a4757551096fcb777746d430a</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch9a-12-12-2022_01-04-2023_0931.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

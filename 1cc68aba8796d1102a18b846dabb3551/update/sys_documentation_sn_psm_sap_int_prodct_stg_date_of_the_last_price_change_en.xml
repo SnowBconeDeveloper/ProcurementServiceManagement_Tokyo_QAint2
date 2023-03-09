@@ -11,6 +11,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-03-01 12:36:16</sys_created_on>
+            <sys_id>a4023310c369e110d2cb1c377d01318a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Date of the last price change</sys_name>
             <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>

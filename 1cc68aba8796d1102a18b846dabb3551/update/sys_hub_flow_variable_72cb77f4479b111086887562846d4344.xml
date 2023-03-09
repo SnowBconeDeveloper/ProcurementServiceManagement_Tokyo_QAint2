@@ -38,7 +38,7 @@
         <label>Delta Load Complete</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Fetch Material from SAP ECC">80cb37f4479b111086887562846d4319</model>
+        <model display_value="">80cb37f4479b111086887562846d4319</model>
         <model_id>80cb37f4479b111086887562846d4319</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_80cb37f4479b111086887562846d4319</name>

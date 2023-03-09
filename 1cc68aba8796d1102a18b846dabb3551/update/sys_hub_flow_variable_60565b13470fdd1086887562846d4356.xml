@@ -38,7 +38,7 @@
         <label>Row Skipped</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Retrieve Materials from SAP ECC">2e461b13470fdd1086887562846d4353</model>
+        <model display_value="">2e461b13470fdd1086887562846d4353</model>
         <model_id>2e461b13470fdd1086887562846d4353</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_2e461b13470fdd1086887562846d4353</name>

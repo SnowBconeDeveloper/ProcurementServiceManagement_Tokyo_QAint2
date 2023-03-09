@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -15,7 +16,6 @@
         <name>Create goods receipt in SAP ECC</name>
         <natlang/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
         <sys_update_name>sys_hub_flow_fae50b1c877351102a18b846dabb357d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-03 14:14:34</sys_updated_on>
+        <sys_updated_on>2023-03-05 08:18:05</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=fae50b1c877351102a18b846dabb357d"/>
@@ -90,7 +90,6 @@
         <element>psm_goods_receipt</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -137,7 +136,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -173,7 +171,6 @@
         <element>connection_alias</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -220,7 +217,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -257,7 +253,6 @@
         <element>error_message</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -304,7 +299,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -340,7 +334,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -387,7 +380,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -400,6 +392,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create goods receipt in SAP ECC">fae50b1c877351102a18b846dabb357d</flow>
         <order>5</order>
@@ -474,6 +467,7 @@
         <action_type display_value="Create Goods Receipt">7aed38f497735110215b35471153afbb</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create goods receipt in SAP ECC">fae50b1c877351102a18b846dabb357d</flow>
         <order>3</order>
@@ -612,6 +606,7 @@
         <action_type display_value="Generate ECC GR Payload">5247079c877351102a18b846dabb355a</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create goods receipt in SAP ECC">fae50b1c877351102a18b846dabb357d</flow>
         <order>1</order>
@@ -928,7 +923,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -1156,7 +1151,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fae50b1c877351102a18b846dabb357d_psm_goods_receipt_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-12-12 11:01:08</sys_updated_on>
         <url/>
@@ -1179,7 +1174,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fae50b1c877351102a18b846dabb357d_connection_alias_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-12-12 11:01:08</sys_updated_on>
         <url/>
@@ -1204,7 +1199,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_fae50b1c877351102a18b846dabb357d_status_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-12-12 11:01:08</sys_updated_on>
         <url/>
@@ -1227,7 +1222,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_fae50b1c877351102a18b846dabb357d_error_message_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-12-12 11:01:09</sys_updated_on>
         <url/>
@@ -1382,7 +1377,6 @@
         <element>connection_alias</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1429,7 +1423,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1465,7 +1458,6 @@
         <element>psm_goods_receipt</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1512,7 +1504,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1549,7 +1540,6 @@
         <element>error_message</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1596,7 +1586,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1632,7 +1621,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1679,7 +1667,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1692,6 +1679,7 @@
         <action_type display_value="Generate ECC GR Payload">5247079c877351102a18b846dabb355a</action_type>
         <action_type_parent display_value="Generate ECC GR Payload">48e532708727d110c04eb259dabb3500</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create goods receipt in SAP ECC">3ae6002c87b751102a18b846dabb3539</flow>
         <order>1</order>
@@ -1728,6 +1716,7 @@
         <action_type display_value="Create Goods Receipt">7aed38f497735110215b35471153afbb</action_type>
         <action_type_parent display_value="Create Goods Receipt">85abe07897335110215b35471153af0f</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create goods receipt in SAP ECC">3ae6002c87b751102a18b846dabb3539</flow>
         <order>3</order>
@@ -1866,6 +1855,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create goods receipt in SAP ECC">3ae6002c87b751102a18b846dabb3539</flow>
         <order>5</order>
@@ -2040,7 +2030,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -2448,7 +2438,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3ae6002c87b751102a18b846dabb3539_psm_goods_receipt_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-12-12 15:36:53</sys_updated_on>
         <url/>
@@ -2471,7 +2461,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3ae6002c87b751102a18b846dabb3539_connection_alias_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-12-12 15:36:53</sys_updated_on>
         <url/>
@@ -2496,7 +2486,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_3ae6002c87b751102a18b846dabb3539_error_message_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-12-12 15:36:53</sys_updated_on>
         <url/>
@@ -2519,7 +2509,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_3ae6002c87b751102a18b846dabb3539_status_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-12-12 15:36:53</sys_updated_on>
         <url/>
@@ -2568,9 +2558,8 @@
             <value>Error</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>fae50b1c877351102a18b846dabb357d</sys_id>
         <latest_snapshot>3ae6002c87b751102a18b846dabb3539</latest_snapshot>
-        <compiler_build/>
     </sys_hub_flow>
 </record_update>

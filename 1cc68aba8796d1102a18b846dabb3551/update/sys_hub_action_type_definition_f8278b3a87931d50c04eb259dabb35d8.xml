@@ -8,6 +8,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch7b-10-17-2022_11-01-2022_0949.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -26,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f8278b3a87931d50c04eb259dabb35d8</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Generate ECC PO address Object</sys_name>
         <sys_overrides/>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_f8278b3a87931d50c04eb259dabb35d8</sys_update_name>
-        <sys_updated_by>satya</sys_updated_by>
-        <sys_updated_on>2022-11-30 16:31:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-05 08:14:16</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -217,18 +218,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1f1ebb7a87571d50c04eb259dabb35af"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>1f1ebb7a87571d50c04eb259dabb35af</id>
-        <sys_created_by>Akash</sys_created_by>
-        <sys_created_on>2022-11-25 12:51:49</sys_created_on>
-        <sys_id>ef1ebb7a87571d50c04eb259dabb35bc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Akash</sys_updated_by>
-        <sys_updated_on>2022-11-25 12:51:49</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>json</field>
         <id>1f1ebb7a87571d50c04eb259dabb35af</id>
         <sys_created_by>Akash</sys_created_by>
@@ -239,18 +228,6 @@
         <sys_updated_on>2022-11-25 12:51:50</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_1f1ebb7a87571d50c04eb259dabb35af</table>
         <value>{{step[97880ac6-e8d8-4fca-8571-2979b5438148].payload}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>1f1ebb7a87571d50c04eb259dabb35af</id>
-        <sys_created_by>Akash</sys_created_by>
-        <sys_created_on>2022-11-25 12:51:49</sys_created_on>
-        <sys_id>a31ebb7a87571d50c04eb259dabb35bd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Akash</sys_updated_by>
-        <sys_updated_on>2022-11-25 12:51:49</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_1f1ebb7a87571d50c04eb259dabb35af^id=1f1ebb7a87571d50c04eb259dabb35af"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=1f1ebb7a87571d50c04eb259dabb35af"/>
@@ -433,11 +410,11 @@
         <sys_created_on>2022-11-25 12:51:49</sys_created_on>
         <sys_id>6f1ebb7a87571d50c04eb259dabb35b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>PO Address</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_1f1ebb7a87571d50c04eb259dabb35af_po_address_en</sys_update_name>
         <sys_updated_by>Akash</sys_updated_by>
         <sys_updated_on>2022-11-25 12:51:49</sys_updated_on>
         <url/>
@@ -836,11 +813,11 @@
         <sys_created_on>2022-11-25 08:54:35</sys_created_on>
         <sys_id>d4d7cbba87931d50c04eb259dabb35eb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>PO Address</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f8278b3a87931d50c04eb259dabb35d8_po_address_en</sys_update_name>
         <sys_updated_by>Akash</sys_updated_by>
         <sys_updated_on>2022-11-25 08:54:35</sys_updated_on>
         <url/>
@@ -861,11 +838,11 @@
         <sys_created_on>2022-11-25 12:51:50</sys_created_on>
         <sys_id>271ebb7a87571d50c04eb259dabb35e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f8278b3a87931d50c04eb259dabb35d8___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Akash</sys_updated_by>
         <sys_updated_on>2022-11-25 12:51:50</sys_updated_on>
         <url/>
@@ -884,11 +861,11 @@
         <sys_created_on>2022-11-25 12:51:50</sys_created_on>
         <sys_id>af1ebb7a87571d50c04eb259dabb35df</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f8278b3a87931d50c04eb259dabb35d8___action_status___en</sys_update_name>
         <sys_updated_by>Akash</sys_updated_by>
         <sys_updated_on>2022-11-25 12:51:50</sys_updated_on>
         <url/>
@@ -907,11 +884,11 @@
         <sys_created_on>2022-11-28 12:09:41</sys_created_on>
         <sys_id>e331db3787dbdd50c04eb259dabb355a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>PO Address</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f8278b3a87931d50c04eb259dabb35d8_po_address_en</sys_update_name>
         <sys_updated_by>Akash</sys_updated_by>
         <sys_updated_on>2022-11-28 12:09:41</sys_updated_on>
         <url/>
@@ -1096,18 +1073,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5f09c4c387971d50c04eb259dabb351c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5f09c4c387971d50c04eb259dabb351c</id>
-        <sys_created_by>Akash</sys_created_by>
-        <sys_created_on>2022-11-25 13:39:36</sys_created_on>
-        <sys_id>db09c4c387971d50c04eb259dabb352d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Akash</sys_updated_by>
-        <sys_updated_on>2022-11-25 13:39:36</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>json</field>
         <id>5f09c4c387971d50c04eb259dabb351c</id>
         <sys_created_by>Akash</sys_created_by>
@@ -1118,18 +1083,6 @@
         <sys_updated_on>2022-11-25 13:39:36</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_5f09c4c387971d50c04eb259dabb351c</table>
         <value>{{step[97880ac6-e8d8-4fca-8571-2979b5438148].payload}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5f09c4c387971d50c04eb259dabb351c</id>
-        <sys_created_by>Akash</sys_created_by>
-        <sys_created_on>2022-11-25 13:39:36</sys_created_on>
-        <sys_id>9f09c4c387971d50c04eb259dabb352d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Akash</sys_updated_by>
-        <sys_updated_on>2022-11-25 13:39:36</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5f09c4c387971d50c04eb259dabb351c^id=5f09c4c387971d50c04eb259dabb351c"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=5f09c4c387971d50c04eb259dabb351c"/>
@@ -1312,11 +1265,11 @@
         <sys_created_on>2022-11-25 13:39:36</sys_created_on>
         <sys_id>d709c4c387971d50c04eb259dabb352a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>PO Address</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5f09c4c387971d50c04eb259dabb351c_po_address_en</sys_update_name>
         <sys_updated_by>Akash</sys_updated_by>
         <sys_updated_on>2022-11-25 13:39:36</sys_updated_on>
         <url/>
@@ -1769,11 +1722,11 @@
         <sys_created_on>2022-11-25 13:39:35</sys_created_on>
         <sys_id>8b0984c387971d50c04eb259dabb35ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>PO Address</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3e0984c387971d50c04eb259dabb35f5_po_address_en</sys_update_name>
         <sys_updated_by>Akash</sys_updated_by>
         <sys_updated_on>2022-11-25 13:39:35</sys_updated_on>
         <url/>
@@ -1794,11 +1747,11 @@
         <sys_created_on>2022-11-28 12:09:48</sys_created_on>
         <sys_id>09411f3787dbdd50c04eb259dabb3514</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>PO Address</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3e0984c387971d50c04eb259dabb35f5_po_address_en</sys_update_name>
         <sys_updated_by>Akash</sys_updated_by>
         <sys_updated_on>2022-11-28 12:09:48</sys_updated_on>
         <url/>
@@ -1817,11 +1770,11 @@
         <sys_created_on>2022-11-25 13:39:37</sys_created_on>
         <sys_id>2f09c4c387971d50c04eb259dabb3570</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3e0984c387971d50c04eb259dabb35f5___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Akash</sys_updated_by>
         <sys_updated_on>2022-11-25 13:39:37</sys_updated_on>
         <url/>
@@ -1840,20 +1793,19 @@
         <sys_created_on>2022-11-25 13:39:37</sys_created_on>
         <sys_id>af09c4c387971d50c04eb259dabb3569</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3e0984c387971d50c04eb259dabb35f5___action_status___en</sys_update_name>
         <sys_updated_by>Akash</sys_updated_by>
         <sys_updated_on>2022-11-25 13:39:37</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_3e0984c387971d50c04eb259dabb35f5"/>
-    <sys_hub_action_type_definition action="UPDATE">
+    <sys_hub_action_type_definition action="update">
         <sys_id>f8278b3a87931d50c04eb259dabb35d8</sys_id>
         <latest_snapshot>3e0984c387971d50c04eb259dabb35f5</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch7b-10-17-2022_11-01-2022_0949.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

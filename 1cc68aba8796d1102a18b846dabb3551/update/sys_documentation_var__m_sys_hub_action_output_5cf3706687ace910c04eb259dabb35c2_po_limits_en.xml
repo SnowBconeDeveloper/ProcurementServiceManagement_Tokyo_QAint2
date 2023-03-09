@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="po_limits" label="PO Limits" language="en" table="var__m_sys_hub_action_output_5cf3706687ace910c04eb259dabb35c2">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>po_limits</element>
+            <help/>
+            <hint/>
+            <label>PO Limits</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_5cf3706687ace910c04eb259dabb35c2</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>satya</sys_created_by>
+            <sys_created_on>2023-01-25 06:48:38</sys_created_on>
+            <sys_id>f9f3b06687ace910c04eb259dabb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>PO Limits</sys_name>
+            <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5cf3706687ace910c04eb259dabb35c2_po_limits_en</sys_update_name>
+            <sys_updated_by>satya</sys_updated_by>
+            <sys_updated_on>2023-01-25 06:48:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

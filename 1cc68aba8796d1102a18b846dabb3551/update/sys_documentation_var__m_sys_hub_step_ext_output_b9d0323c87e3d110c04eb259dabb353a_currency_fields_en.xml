@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="currency_fields" label="Currency Fields" language="en" table="var__m_sys_hub_step_ext_output_b9d0323c87e3d110c04eb259dabb353a">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>currency_fields</element>
+            <help/>
+            <hint/>
+            <label>Currency Fields</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_b9d0323c87e3d110c04eb259dabb353a</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Akash</sys_created_by>
+            <sys_created_on>2022-12-01 12:22:03</sys_created_on>
+            <sys_id>02d0323c87e3d110c04eb259dabb354b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Currency Fields</sys_name>
+            <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_b9d0323c87e3d110c04eb259dabb353a_currency_fields_en</sys_update_name>
+            <sys_updated_by>Akash</sys_updated_by>
+            <sys_updated_on>2022-12-01 12:22:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

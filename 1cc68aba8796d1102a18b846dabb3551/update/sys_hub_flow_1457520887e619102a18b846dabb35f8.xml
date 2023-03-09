@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch9a-12-12-2022_01-04-2023_0931.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -15,7 +16,6 @@
         <name>Create purchase order in SAP ECC</name>
         <natlang/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
         <sys_update_name>sys_hub_flow_1457520887e619102a18b846dabb35f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-03 14:14:28</sys_updated_on>
+        <sys_updated_on>2023-03-05 08:14:43</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=1457520887e619102a18b846dabb35f8"/>
@@ -90,7 +90,6 @@
         <element>connection_credential_alias</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -137,7 +136,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -173,7 +171,6 @@
         <element>psm_po</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -220,7 +217,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -257,7 +253,6 @@
         <element>error_message</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -304,7 +299,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -340,7 +334,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -387,7 +380,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -400,6 +392,7 @@
         <action_type display_value="Generate ECC PO payload">5cf3706687ace910c04eb259dabb35c2</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">1457520887e619102a18b846dabb35f8</flow>
         <order>1</order>
@@ -436,6 +429,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Update status to ordered and populate feedback fields</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">1457520887e619102a18b846dabb35f8</flow>
         <order>8</order>
@@ -537,6 +531,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Update ERP line Number to empty</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">1457520887e619102a18b846dabb35f8</flow>
         <order>13</order>
@@ -625,6 +620,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Update ERP Number and status to ordered</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">1457520887e619102a18b846dabb35f8</flow>
         <order>5</order>
@@ -713,6 +709,7 @@
         <action_type display_value="Create Purchase Order">768b472b87c759101dff337e0ebb35e1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">1457520887e619102a18b846dabb35f8</flow>
         <order>3</order>
@@ -885,6 +882,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">1457520887e619102a18b846dabb35f8</flow>
         <order>11</order>
@@ -973,6 +971,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">1457520887e619102a18b846dabb35f8</flow>
         <order>6</order>
@@ -1062,6 +1061,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=0c534f19879f59502a18b846dabb353d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=0c534f19879f59502a18b846dabb353d"/>
     <sys_element_mapping action="delete_multiple" query="id=0c534f19879f59502a18b846dabb353d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>error_message</field>
@@ -1122,6 +1122,7 @@
         <value>Purchase Order Creation is Successful</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=1004c70487aa19102a18b846dabb3550"/>
     <sys_element_mapping action="delete_multiple" query="id=1004c70487aa19102a18b846dabb3550"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition</field>
@@ -1195,6 +1196,7 @@
         <value>Generate SAP ECC PO Payload Successful</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=2b434f19879f59502a18b846dabb3510"/>
     <sys_element_mapping action="delete_multiple" query="id=2b434f19879f59502a18b846dabb3510"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition</field>
@@ -1254,6 +1256,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=37434f19879f59502a18b846dabb3530"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=37434f19879f59502a18b846dabb3530"/>
     <sys_element_mapping action="delete_multiple" query="id=37434f19879f59502a18b846dabb3530"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>error_message</field>
@@ -1314,6 +1317,7 @@
         <value>Flow Failed</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=37434f19879f59502a18b846dabb353a"/>
     <sys_element_mapping action="delete_multiple" query="id=37434f19879f59502a18b846dabb353a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition</field>
@@ -1373,6 +1377,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=38afb93087e7d1102a18b846dabb351f"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=38afb93087e7d1102a18b846dabb351f"/>
     <sys_element_mapping action="delete_multiple" query="id=38afb93087e7d1102a18b846dabb351f"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>items</field>
@@ -1447,6 +1452,7 @@
         <value>1</value>
         <variable display_value="enabled">dd70187cc36e20105553b740ad40dddc</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=5f83ed7d870b9910c04eb259dabb352f"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_35d60003e6022010a5e40cdd1254dd23^id=5f83ed7d870b9910c04eb259dabb352f"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_1457520887e619102a18b846dabb35f8^id=5f83ed7d870b9910c04eb259dabb352f"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5f83ed7d870b9910c04eb259dabb352f"/>
@@ -1463,7 +1469,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -1481,6 +1487,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=8783ad7d870b9910c04eb259dabb35da"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=8783ad7d870b9910c04eb259dabb35da"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_1457520887e619102a18b846dabb35f8^id=8783ad7d870b9910c04eb259dabb35da"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8783ad7d870b9910c04eb259dabb35da"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8783ad7d870b9910c04eb259dabb35da"/>
@@ -1515,6 +1522,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=99afb93087e7d1102a18b846dabb3557"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=99afb93087e7d1102a18b846dabb3557"/>
     <sys_element_mapping action="delete_multiple" query="id=99afb93087e7d1102a18b846dabb3557"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>items</field>
@@ -1575,6 +1583,7 @@
         <value>Success</value>
         <variable display_value="Status">57f3870487aa19102a18b846dabb359a</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=c9afb93087e7d1102a18b846dabb3547"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_1457520887e619102a18b846dabb35f8^id=c9afb93087e7d1102a18b846dabb3547"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c9afb93087e7d1102a18b846dabb3547"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c9afb93087e7d1102a18b846dabb3547"/>
@@ -1609,6 +1618,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=d804c70487aa19102a18b846dabb355b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=d804c70487aa19102a18b846dabb355b"/>
     <sys_element_mapping action="delete_multiple" query="id=d804c70487aa19102a18b846dabb355b"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>error_message</field>
@@ -1654,6 +1664,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=e3434f19879f59502a18b846dabb3525"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=e3434f19879f59502a18b846dabb3525"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_1457520887e619102a18b846dabb35f8^id=e3434f19879f59502a18b846dabb3525"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e3434f19879f59502a18b846dabb3525"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e3434f19879f59502a18b846dabb3525"/>
@@ -1687,11 +1698,93 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=fb434f19879f59502a18b846dabb352d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8^id=fb434f19879f59502a18b846dabb352d"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_1457520887e619102a18b846dabb35f8^id=fb434f19879f59502a18b846dabb352d"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fb434f19879f59502a18b846dabb352d"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=fb434f19879f59502a18b846dabb352d"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=1457520887e619102a18b846dabb35f8"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=1457520887e619102a18b846dabb35f8"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1457520887e619102a18b846dabb35f8^sys_idNOT IN27f3870487aa19102a18b846dabb35ac"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=3939fbe3-cf50-4ce6-b38c-3cc18ffe9caa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>po_order_line_json</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>PO Order Line JSON</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Create purchase order in SAP ECC">1457520887e619102a18b846dabb35f8</model>
+        <model_id>1457520887e619102a18b846dabb35f8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_1457520887e619102a18b846dabb35f8</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>satya</sys_created_by>
+        <sys_created_on>2022-10-10 12:47:29</sys_created_on>
+        <sys_id>27f3870487aa19102a18b846dabb35ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PO Order Line JSON</sys_name>
+        <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_27f3870487aa19102a18b846dabb35ac</sys_update_name>
+        <sys_updated_by>satya</sys_updated_by>
+        <sys_updated_on>2022-10-10 12:47:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1457520887e619102a18b846dabb35f8^sys_idNOT IN85c0dd28872791102a18b846dabb35d2,dff3870487aa19102a18b846dabb3597"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>connection_credential_alias</element>
@@ -1710,7 +1803,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1457520887e619102a18b846dabb35f8_connection_credential_alias_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-11-30 10:43:49</sys_updated_on>
         <url/>
@@ -1733,7 +1826,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1457520887e619102a18b846dabb35f8_psm_po_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-10-10 12:47:29</sys_updated_on>
         <url/>
@@ -1758,7 +1851,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_1457520887e619102a18b846dabb35f8_status_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-10-10 12:47:29</sys_updated_on>
         <url/>
@@ -1781,7 +1874,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_1457520887e619102a18b846dabb35f8_error_message_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-10-10 12:47:29</sys_updated_on>
         <url/>
@@ -1936,7 +2029,6 @@
         <element>psm_po</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1983,7 +2075,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2019,7 +2110,6 @@
         <element>connection_credential_alias</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2066,7 +2156,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2103,7 +2192,6 @@
         <element>error_message</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2150,7 +2238,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2186,7 +2273,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2233,7 +2319,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2246,6 +2331,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment>Update status to ordered and populate feedback fields</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">34c66f48872e19102a18b846dabb35de</flow>
         <order>8</order>
@@ -2347,6 +2433,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment>Update ERP line Number to empty</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">34c66f48872e19102a18b846dabb35de</flow>
         <order>13</order>
@@ -2435,6 +2522,7 @@
         <action_type display_value="Create Purchase Order">768b472b87c759101dff337e0ebb35e1</action_type>
         <action_type_parent display_value="Create Purchase Order">9ed5c179870f15101dff337e0ebb35d7</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">34c66f48872e19102a18b846dabb35de</flow>
         <order>3</order>
@@ -2607,6 +2695,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">34c66f48872e19102a18b846dabb35de</flow>
         <order>11</order>
@@ -2695,6 +2784,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment>Update ERP Number and status to ordered</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">34c66f48872e19102a18b846dabb35de</flow>
         <order>5</order>
@@ -2769,6 +2859,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">34c66f48872e19102a18b846dabb35de</flow>
         <order>6</order>
@@ -2831,6 +2922,7 @@
         <action_type display_value="Generate ECC PO payload">5cf3706687ace910c04eb259dabb35c2</action_type>
         <action_type_parent display_value="Generate ECC PO payload">042fa02287ace910c04eb259dabb35bc</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Create purchase order in SAP ECC">34c66f48872e19102a18b846dabb35de</flow>
         <order>1</order>
@@ -2894,6 +2986,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=1b530359879f59502a18b846dabb3546"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=1b530359879f59502a18b846dabb3546"/>
     <sys_element_mapping action="delete_multiple" query="id=1b530359879f59502a18b846dabb3546"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>error_message</field>
@@ -2940,6 +3033,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=21c6af48872e19102a18b846dabb3541"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=21c6af48872e19102a18b846dabb3541"/>
     <sys_element_mapping action="delete_multiple" query="id=21c6af48872e19102a18b846dabb3541"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>error_message</field>
@@ -2967,7 +3061,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -2985,6 +3079,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=2d9361bd870b9910c04eb259dabb3535"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=2d9361bd870b9910c04eb259dabb3535"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_34c66f48872e19102a18b846dabb35de^id=2d9361bd870b9910c04eb259dabb3535"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2d9361bd870b9910c04eb259dabb3535"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2d9361bd870b9910c04eb259dabb3535"/>
@@ -3019,6 +3114,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=53530359879f59502a18b846dabb3539"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=53530359879f59502a18b846dabb3539"/>
     <sys_element_mapping action="delete_multiple" query="id=53530359879f59502a18b846dabb3539"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>error_message</field>
@@ -3078,6 +3174,7 @@
         <value>Success</value>
         <variable display_value="Status">8dc6af48872e19102a18b846dabb3504</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=74314ab087e7d1102a18b846dabb35ab"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_34c66f48872e19102a18b846dabb35de^id=74314ab087e7d1102a18b846dabb35ab"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=74314ab087e7d1102a18b846dabb35ab"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=74314ab087e7d1102a18b846dabb35ab"/>
@@ -3112,6 +3209,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=78314ab087e7d1102a18b846dabb35b3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=78314ab087e7d1102a18b846dabb35b3"/>
     <sys_element_mapping action="delete_multiple" query="id=78314ab087e7d1102a18b846dabb35b3"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>items</field>
@@ -3159,6 +3257,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=a4314ab087e7d1102a18b846dabb3595"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=a4314ab087e7d1102a18b846dabb3595"/>
     <sys_element_mapping action="delete_multiple" query="id=a4314ab087e7d1102a18b846dabb3595"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>items</field>
@@ -3220,6 +3319,7 @@
         <value>Generate SAP ECC PO Payload Successful</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=cf530359879f59502a18b846dabb3510"/>
     <sys_element_mapping action="delete_multiple" query="id=cf530359879f59502a18b846dabb3510"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition</field>
@@ -3278,6 +3378,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=d7530359879f59502a18b846dabb3536"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=d7530359879f59502a18b846dabb3536"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_34c66f48872e19102a18b846dabb35de^id=d7530359879f59502a18b846dabb3536"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d7530359879f59502a18b846dabb3536"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d7530359879f59502a18b846dabb3536"/>
@@ -3326,6 +3427,7 @@
         <value>Purchase Order Creation is Successful</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=d9c6af48872e19102a18b846dabb3534"/>
     <sys_element_mapping action="delete_multiple" query="id=d9c6af48872e19102a18b846dabb3534"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition</field>
@@ -3384,6 +3486,7 @@
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=db530359879f59502a18b846dabb352d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=db530359879f59502a18b846dabb352d"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_34c66f48872e19102a18b846dabb35de^id=db530359879f59502a18b846dabb352d"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=db530359879f59502a18b846dabb352d"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=db530359879f59502a18b846dabb352d"/>
@@ -3432,6 +3535,7 @@
         <value>Flow Failed</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=df530359879f59502a18b846dabb3542"/>
     <sys_element_mapping action="delete_multiple" query="id=df530359879f59502a18b846dabb3542"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition</field>
@@ -3518,12 +3622,94 @@
         <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"620ae830-f089-4bb7-b87a-596632299baf\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Error Status">0f72a5a25b132010b61ea2013781c749</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de^id=f59361bd870b9910c04eb259dabb3593"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_35d60003e6022010a5e40cdd1254dd23^id=f59361bd870b9910c04eb259dabb3593"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_34c66f48872e19102a18b846dabb35de^id=f59361bd870b9910c04eb259dabb3593"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f59361bd870b9910c04eb259dabb3593"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f59361bd870b9910c04eb259dabb3593"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=34c66f48872e19102a18b846dabb35de"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=34c66f48872e19102a18b846dabb35de"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=34c66f48872e19102a18b846dabb35de^sys_idNOT INd1c6af48872e19102a18b846dabb3528"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=3939fbe3-cf50-4ce6-b38c-3cc18ffe9caa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>po_order_line_json</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>PO Order Line JSON</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Create purchase order in SAP ECC">34c66f48872e19102a18b846dabb35de</model>
+        <model_id>34c66f48872e19102a18b846dabb35de</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_34c66f48872e19102a18b846dabb35de</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>satya</sys_created_by>
+        <sys_created_on>2022-10-10 15:19:26</sys_created_on>
+        <sys_id>d1c6af48872e19102a18b846dabb3528</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PO Order Line JSON</sys_name>
+        <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_d1c6af48872e19102a18b846dabb3528</sys_update_name>
+        <sys_updated_by>satya</sys_updated_by>
+        <sys_updated_on>2022-10-10 15:19:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_34c66f48872e19102a18b846dabb35de^sys_idNOT IN70d09168872791102a18b846dabb3543,85c6af48872e19102a18b846dabb3500"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>connection_credential_alias</element>
@@ -3542,7 +3728,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_34c66f48872e19102a18b846dabb35de_connection_credential_alias_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-11-30 10:44:04</sys_updated_on>
         <url/>
@@ -3565,7 +3751,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_34c66f48872e19102a18b846dabb35de_psm_po_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-10-10 15:19:25</sys_updated_on>
         <url/>
@@ -3590,7 +3776,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_34c66f48872e19102a18b846dabb35de_error_message_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-10-10 15:19:26</sys_updated_on>
         <url/>
@@ -3613,7 +3799,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_34c66f48872e19102a18b846dabb35de_status_en</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-10-10 15:19:26</sys_updated_on>
         <url/>
@@ -3662,9 +3848,8 @@
             <value>Error</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>1457520887e619102a18b846dabb35f8</sys_id>
         <latest_snapshot>34c66f48872e19102a18b846dabb35de</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch9a-12-12-2022_01-04-2023_0931.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

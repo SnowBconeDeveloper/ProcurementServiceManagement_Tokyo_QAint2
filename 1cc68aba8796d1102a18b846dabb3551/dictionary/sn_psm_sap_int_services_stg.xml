@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ba239679c355e11068187addd4013196" extends="sys_import_set_row" label="Services" max_length="40" name="sn_psm_sap_int_services_stg" type="collection">
+    <element extends="sys_import_set_row" label="Services" max_length="40" name="sn_psm_sap_int_services_stg" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Activity Number" max_length="18" name="activity_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Authorization Group" max_length="4" name="authorization_group" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Base Unit of Measure" max_length="3" name="base_unit_of_measure" type="string"/>

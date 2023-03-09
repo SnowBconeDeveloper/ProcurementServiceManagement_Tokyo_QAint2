@@ -2,12 +2,12 @@
     <sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
         <active>true</active>
         <erp_source_configuration/>
-        <flow display_value="Parallel Caller Subflow for Materials Fetch -new">f9a4adfe8714ed50a3e3cbb4dabb35b2</flow>
+        <flow display_value="Parallel Subflow Caller  for Materials">f9a4adfe8714ed50a3e3cbb4dabb35b2</flow>
         <import_set_tables>sn_psm_sap_int_prodct_stg</import_set_tables>
         <name>Material master Parallel</name>
         <order/>
         <properties>{"low":"4000","high":"","sign":"I","option":"EQ","full_pull":"true"}</properties>
-        <source display_value="SAP ECC Parallel">b0c6158d47fb111002367562846d43ac</source>
+        <source display_value="">b0c6158d47fb111002367562846d43ac</source>
         <sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
         <sys_created_by>mayank</sys_created_by>
         <sys_created_on>2022-12-14 10:44:04</sys_created_on>

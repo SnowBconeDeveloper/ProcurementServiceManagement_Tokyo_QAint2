@@ -38,7 +38,7 @@
         <label>Row Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Fetch services from SAP ECC">31c3048e4757551096fcb777746d43e2</model>
+        <model display_value="">31c3048e4757551096fcb777746d43e2</model>
         <model_id>31c3048e4757551096fcb777746d43e2</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_31c3048e4757551096fcb777746d43e2</name>

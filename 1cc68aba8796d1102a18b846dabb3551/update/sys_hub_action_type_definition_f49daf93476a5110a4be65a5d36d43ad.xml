@@ -8,6 +8,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch9b-01-18-2023_01-31-2023_1707.zip</compiler_build>
         <copied_from>402256bb976599106ef838a71153af4e</copied_from>
         <copied_from_name>Segregate Material data</copied_from_name>
         <description/>
@@ -33,8 +34,8 @@
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_f49daf93476a5110a4be65a5d36d43ad</sys_update_name>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-25 07:05:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-05 08:14:04</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -506,7 +507,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8d9daf93476a5110a4be65a5d36d43dc_ET_MATERIAL_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-01-30 06:51:47</sys_updated_on>
         <url/>
@@ -529,7 +530,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8d9daf93476a5110a4be65a5d36d43dc_ET_TOTAL_ROWS_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-01-30 06:51:47</sys_updated_on>
         <url/>
@@ -989,7 +990,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f49daf93476a5110a4be65a5d36d43ad_mat_obj_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-01-30 06:51:46</sys_updated_on>
         <url/>
@@ -1014,7 +1015,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f49daf93476a5110a4be65a5d36d43ad___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2022-10-20 18:09:27</sys_updated_on>
         <url/>
@@ -1037,7 +1038,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f49daf93476a5110a4be65a5d36d43ad_material_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-01-30 06:51:48</sys_updated_on>
         <url/>
@@ -1060,7 +1061,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f49daf93476a5110a4be65a5d36d43ad_total_rows_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-01-30 06:51:48</sys_updated_on>
         <url/>
@@ -1083,7 +1084,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f49daf93476a5110a4be65a5d36d43ad___action_status___en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2022-10-20 18:09:27</sys_updated_on>
         <url/>
@@ -1611,7 +1612,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_29bda3d3476a5110a4be65a5d36d43db_ET_TOTAL_ROWS_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-01-30 06:51:57</sys_updated_on>
         <url/>
@@ -1634,7 +1635,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_29bda3d3476a5110a4be65a5d36d43db_ET_MATERIAL_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-01-30 06:51:57</sys_updated_on>
         <url/>
@@ -2094,7 +2095,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_05bda3d3476a5110a4be65a5d36d4383_mat_obj_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-01-30 06:51:57</sys_updated_on>
         <url/>
@@ -2119,7 +2120,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_05bda3d3476a5110a4be65a5d36d4383_material_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-01-30 06:51:58</sys_updated_on>
         <url/>
@@ -2142,7 +2143,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_05bda3d3476a5110a4be65a5d36d4383_total_rows_en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2023-01-30 06:51:58</sys_updated_on>
         <url/>
@@ -2165,7 +2166,7 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_05bda3d3476a5110a4be65a5d36d4383___action_status___en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2022-10-20 18:10:02</sys_updated_on>
         <url/>
@@ -2188,16 +2189,15 @@
         <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
         <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_05bda3d3476a5110a4be65a5d36d4383___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2022-10-20 18:10:02</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_05bda3d3476a5110a4be65a5d36d4383"/>
-    <sys_hub_action_type_definition action="UPDATE">
+    <sys_hub_action_type_definition action="update">
         <sys_id>f49daf93476a5110a4be65a5d36d43ad</sys_id>
         <latest_snapshot>05bda3d3476a5110a4be65a5d36d4383</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch9b-01-18-2023_01-31-2023_1707.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="service_record" label="Service Record" language="en" table="var__m_sys_hub_flow_input_86ab9ba7874da1101325337e0ebb35de">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>service_record</element>
+            <help/>
+            <hint/>
+            <label>Service Record</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_86ab9ba7874da1101325337e0ebb35de</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-22 18:06:37</sys_created_on>
+            <sys_id>9aabdba7874da1101325337e0ebb3519</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Service Record</sys_name>
+            <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_86ab9ba7874da1101325337e0ebb35de_service_record_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-22 18:06:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

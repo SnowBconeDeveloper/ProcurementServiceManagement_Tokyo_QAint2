@@ -38,7 +38,7 @@
         <label>PR Exist</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Create/Close ERP Purchase Order Error Task">188c6ad4872a59102a18b846dabb356b</model>
+        <model display_value="">188c6ad4872a59102a18b846dabb356b</model>
         <model_id>188c6ad4872a59102a18b846dabb356b</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_188c6ad4872a59102a18b846dabb356b</name>
@@ -63,9 +63,9 @@
         <sys_id>0b1b47ee872e5150c04eb259dabb358f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>PR Exist</sys_name>
-        <sys_package display_value="Procurement Service Management Integration for SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
+        <sys_package display_value="Procurement Service Management Integration with SAP" source="sn_psm_sap_int">1cc68aba8796d1102a18b846dabb3551</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Procurement Service Management Integration for SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
+        <sys_scope display_value="Procurement Service Management Integration with SAP">1cc68aba8796d1102a18b846dabb3551</sys_scope>
         <sys_update_name>sys_hub_flow_variable_0b1b47ee872e5150c04eb259dabb358f</sys_update_name>
         <sys_updated_by>satya</sys_updated_by>
         <sys_updated_on>2022-10-18 07:43:24</sys_updated_on>

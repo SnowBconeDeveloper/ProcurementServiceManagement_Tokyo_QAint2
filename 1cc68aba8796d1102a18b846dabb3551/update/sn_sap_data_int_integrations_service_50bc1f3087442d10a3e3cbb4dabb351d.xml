@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sap_data_int_integrations_service">
     <sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
         <active>true</active>
-        <flow display_value="Test Parallel Caller Subflow for Material Fetch">6197b7f887842d10a3e3cbb4dabb3553</flow>
+        <erp_source_configuration/>
+        <flow display_value="">6197b7f887842d10a3e3cbb4dabb3553</flow>
         <import_set_tables>sn_psm_sap_int_product_stg</import_set_tables>
         <name>material</name>
         <order/>
         <properties>{"low":"1000","high":"","sign":"I","option":"EQ","full_pull":"true"}</properties>
-        <source display_value="Just for test">4b8c1f3087442d10a3e3cbb4dabb359c</source>
+        <source display_value="">4b8c1f3087442d10a3e3cbb4dabb359c</source>
         <sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
         <sys_created_by>mayank</sys_created_by>
         <sys_created_on>2022-12-26 12:05:29</sys_created_on>
